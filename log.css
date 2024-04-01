@@ -1,0 +1,160 @@
+*{
+    font-family: 'Poppins', sans-serif;
+
+}
+body{
+    background-color:#83c5be;
+    color:white;
+    text-decoration: none;
+}
+.navi{
+    position: sticky;
+}
+
+nav{
+    display:flex;
+    justify-content: space-around;
+    background-color:#006d77;
+     padding: 0px;
+}
+html{
+    scroll-behavior: smooth;
+   }
+   .pic{
+    padding-right:50px;
+    align-items: center;
+    justify-content: center;
+
+   }
+ .menu{
+    list-style: none;
+    display: flex;
+    text-decoration: none;
+    
+}
+li a{ 
+    list-style-type:none;
+   
+    text-decoration: none;
+    color:black;
+    padding: 10px;
+}
+li a:hover{
+    background-color: #83c5be;
+    border-radius: 20px;
+}
+
+.logo{
+    align-items: center;
+    justify-content: flex-start;
+}
+/*contact*/
+.row{
+ display: flex;
+}
+.contact-left{
+    flex-basis: 35%;
+   }
+   .contact-Right{
+    flex-basis:60%;
+    padding-left: 250px;
+   }
+   .contact-left p{
+    margin-top: 30px; 
+   }
+   .contact-left p i{
+    color:black;
+    margin-left:15px;
+    font-size: 25px;
+   }
+   .social-media{
+    margin-top:30px;
+    padding-left: 50px;
+
+   }
+   .social-media a{text-decoration:none;
+    font-size: 30px;
+    margin-right:15px;
+    color:#006d77;
+    display: inline-block;
+
+    transition: transform 0.5s;
+   }
+   .social-media a:hover{
+    color:rgb(237, 163, 163);
+    transform:translateY(-5px);
+   }
+   .contact-Right form{
+    width:100%;
+   }
+   form input,form textarea{
+    width:75%;
+    border:0;
+    outline:none;
+    background:#006d77;
+    padding:15px;
+    margin:15px 0;
+    color: white;
+    font-size:18px;
+    border-radius:6px;
+   }
+   form btn{
+    padding:14px 60px;
+    font-size:18px;
+    margin-top: 14px;
+    cursor: pointer;
+   }
+   .copyright{
+    width:100%;
+    text-align: center;
+    padding:5px;
+    background:#006d77 ;
+    font-weight: 300;
+    margin-top:5px;
+    color: white;
+   }
+   nav .right .fa-solid{
+    display: none;
+   }
+      /*----services----*/
+      #services{
+        padding:30px 0;
+        
+        color:white;
+   }
+   .services-list{
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    grid-gap:40px;
+    margin-top: 50px;
+   }
+   .services-list div{
+    padding: 40px;
+    font-size: 13px;
+    font-weight:300;
+    border-radius: 10px;
+    background-color:#006d77;
+    transition: background 0.5s,transform 0.5s;
+
+   }
+   .services-list div:hover{
+
+    color:white;
+    transform: translateY(-10px);
+   }
+   .h1{
+    text-align: center;
+       color: #006d77;
+   }
+   /*Button*/
+   .btn{
+    
+    padding: 9px;
+    background-color: #8b5236;
+    color:aliceblue;
+    border: 1.5px solid white;
+    border-radius: 20px;
+    font-size: 15px;
+    cursor: pointer;
+    text-decoration: none;
+}
